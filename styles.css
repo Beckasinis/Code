@@ -1,0 +1,42 @@
+/*styles.css*/
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+logo-top {
+  margin: 3rem 0.5rem 1rem;
+  border-color: blue;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+button {
+  border-color: black; 
+  border-radius: 4px; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+#nav-right {
+  margin-left: auto;
+}
+
+#Paris_z71f {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  ;
+}
