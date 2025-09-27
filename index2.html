@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<!-------------------------------Head begin-------------------------------------------------->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles2.css"/>
+  <title>FG News</title>
+
+</head>
+
+<!-------------------------------Body begin--------------------------------------------------> 
+
+<body>
+<!-------------------------------Header begin-------------------------------------------------->
+  <header>
+    <div>
+      <div><img src="/logo.jpg" alt="Logotyp Fantastic News"></div>
+      <div>
+        <nav>
+          <a href="#">Start</a>
+          <a href="#">Sport</a>
+          <a href="#">Nöje</a>
+          <a href="#">Kultur</a>
+          <a href="#">Politik</a>
+          <a href="#">Väder</a>
+          </nav>
+        <div><input type="search"></div>
+      </div>
+    </div>
+
+    <div>
+<!--------------------Väder----------------------->
+      <div>
+        <iframe src='https://xn--vder24-bua.se/index.php/vader-widget/?widgettype=white&widgetcity=västerås' title='Väderwidget' style='height:80px; min-width:200px; width:100%; max-width:300px; name='weatheriFrame' scrolling='0' frameborder='0' ></iframe>
+      </div>
+<!-------------------Lokal tid--------------------> 
+      <div> 
+        <div> 
+          <a href="https://time.is/Paris" id="time_is_link" rel="nofollow" style="font-size:12px">Aktuell lokal tid:</a>
+          <span id="Paris_z71f" style="font-size:12px"></span>
+          <script src="//widget.time.is/sv.js"></script>
+          <script>time_is_widget.init({Paris_z71f:{template:"TIME<br>DATE", date_format:"dayname dnum monthname year"}});</script>
+        </div>
+      </div>
+<!-------------------Knapp-------------------->
+      <div><button>Prenumerera</button></div>
+    </div>
+  </header>
+
+
+
+    
+</body>
+
+<!------------------------------Footer begin------------------------------------------------>
+
+<footer>
+
+</footer>
+
+
+
+
+
+</html>

@@ -13,13 +13,22 @@ nav a {
   text-decoration: none;
   color: black;
   font-size: 26px;
+  padding-left: 3rem;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 3rem;
+  gap: 1,5rem;
+}
+
+img {
+border: 2px solid rgb(3, 3, 3);
+box-shadow: 1rem 3px 15px #70706f;
+border-radius: 2rem;
+margin: 5px;
+
 }
 
 ul {
@@ -39,7 +48,7 @@ a {
 }
 
 a:hover {
-    color: rgb(75, 75, 81); /* Grå färg när musen är över */
+    color: #f3840f; /* Orange färg när musen är över */
     text-decoration: underline; /* Understrykning när musen är över */
     }
 
@@ -60,13 +69,19 @@ p {
 }
 .text-main {
   font-size: 14px;
+  max-width: 450px;
+}
+.article-pic {
+  display: flex;
+  flex-direction: row;
 }
 
 .button-thumb {
-  border-color: rgb(222, 23, 23); 
+  border-color: rgb(1, 1, 1); 
   border-radius: 6px; 
   font-size: 12px;
   margin: 5px;
+  background-color: #f3840f;
 }
 
 
@@ -89,7 +104,9 @@ p {
   width: 20rem;
   margin: 1rem;
   padding: 0 1rem 1rem 1rem;
+  border: 2px solid black;
   border-radius: 6px;
+  box-shadow: 2px 1px 15px #70706f;
 }
 
 #sidebar-right {
@@ -98,8 +115,10 @@ p {
   margin-left: auto;
   margin: 1rem;
   padding: 0 1rem 1rem 1rem;
+  border: 2px solid black;
   border-radius: 6px;
   font-size: 14px;
+  box-shadow: 2px 1px 15px #70706f;
 }
 
 #main {
@@ -109,9 +128,15 @@ p {
   padding: 0 1rem 1rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  border: 2px solid black;
   border-radius: 6px;
+  box-shadow: 2px 1px 15px #70706f;
 }
 
 #logo-footer {
-  margin: 2rem 1.5rem 1rem 1rem;
+  margin: 1rem 1.5rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+
+
 }
