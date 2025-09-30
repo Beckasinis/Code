@@ -1,4 +1,4 @@
-/*styles2.css*/
+/*styles.css*/
 
 :root {
   --primary-bg: #0f0f0f;
@@ -107,6 +107,7 @@ button:hover {
   padding: 5px 1rem;
   border: 2px solid #979490;
   border-radius: 10px;
+  box-shadow: 2px 1px 15px #70706f;
 }
 
 #weather {
