@@ -97,7 +97,7 @@ button:hover {
   display: flex;
   justify-content: flex-end;
   align-self: end;
-  flex-shrink: ;
+  flex-wrap: wrap;
   margin-right: 2rem;
   font-size: 13px;
   align-items: center;
