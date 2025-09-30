@@ -1,0 +1,142 @@
+/*styles.css*/
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  padding-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1,5rem;
+}
+
+img {
+border: 2px solid rgb(3, 3, 3);
+box-shadow: 1rem 3px 15px #70706f;
+border-radius: 2rem;
+margin: 5px;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+button {
+  border-color: black; 
+  border-radius: 4px; 
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+    color: #f3840f; /* Orange färg när musen är över */
+    text-decoration: underline; /* Understrykning när musen är över */
+    }
+
+article {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 14px;
+} 
+
+p {
+  font-size: 12px;
+}
+
+.title-main {
+  font-size: 20px;
+}
+.text-main {
+  font-size: 14px;
+  max-width: 450px;
+}
+.article-pic {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-thumb {
+  border-color: rgb(1, 1, 1); 
+  border-radius: 6px; 
+  font-size: 12px;
+  margin: 5px;
+  background-color: #f3840f;
+}
+
+
+#nav-right {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+/*
+#nav-top {
+
+}*/
+
+#main-body {
+  display: flex;
+  gap: 1rem;
+}
+
+#sidebar-left {
+  background-color: rgb(221, 223, 221);
+  width: 20rem;
+  margin: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 1px 15px #70706f;
+}
+
+#sidebar-right {
+  background-color: rgb(221, 223, 221);
+  width: 20rem;
+  margin-left: auto;
+  margin: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 2px 1px 15px #70706f;
+}
+
+#main {
+  background-color: rgb(221, 223, 221);
+  width: auto;
+  align-content: flex-start;
+  padding: 0 1rem 1rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 1px 15px #70706f;
+}
+
+#logo-footer {
+  margin: 1rem 1.5rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+
+
+}
