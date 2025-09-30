@@ -1,15 +1,9 @@
 /*styles.css*/
 
-:root {
-  --primary-bg: #0f0f0f;
-  --secondary-bg: #1a1a1a;
-  --border-radius-small:var(--border-radius-small);
-}
 
 body { 
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  min-width: 575px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,7 +19,7 @@ p {
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
   color: black;
 }
 
