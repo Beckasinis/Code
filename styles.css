@@ -54,8 +54,9 @@ button:hover {
   flex-wrap: wrap;
 }
 
-#logo-img{
+#logo-img {
   display: flex;
+  flex-wrap: wrap;
   align-self: center;
   border: 3px solid #f3840f;
   border-radius: 2rem;
@@ -246,7 +247,7 @@ summary {
   padding: 10px;
 }
 
-/* Hamburgarikonen */
+/* Hamburger-icon */
 .menu-icon {
   font-size: 30px;
   cursor: pointer;
@@ -285,6 +286,13 @@ summary {
   #menu-toggle:checked + .menu-icon + .menu {
     display: block; /* Visa meny när hamburgaren är klickad */
   }
+
+  #local-time {
+    display: none;
+  }
+
+
+
 }
 
 
