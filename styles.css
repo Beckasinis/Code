@@ -268,14 +268,18 @@ summary {
   display: none; /* Dölj som standard */
 }
 
-/* Visa hamburgarikonen på skärmar mindre än 768px */
-@media (max-width: 768px) {
+/* Visa hamburgarikonen på skärmar mindre än 575px */
+@media (max-width: 575px) {
   .menu-icon {
     display: block;
   }
 
-  .menu {
+  #nav-menu {
     display: none; /* Dölj den vanliga menyn */
+  }
+
+  #sidebar-left {
+    display: none; /* Dölj sidebaren */
   }
 
   #menu-toggle:checked + .menu-icon + .menu {
