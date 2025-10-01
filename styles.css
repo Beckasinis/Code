@@ -315,10 +315,6 @@ summary {
     margin: 10px 10px 10px 10px;
   }
 
-  .article-pic img {
-    position: static;
-  }
-
   .article-main {
     display: flex;
     flex-direction: column;
@@ -334,7 +330,7 @@ summary {
   }
 
   #buttons {
-    width: 100%;
+    width: fit-content;
     display: flex;
     justify-content: flex-end;
   }
