@@ -193,6 +193,7 @@ article {
 
 summary {
   margin: 1rem;
+  cursor: pointer;
 }
 
 #logo-footer {
