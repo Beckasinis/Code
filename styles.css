@@ -280,6 +280,7 @@ summary {
 
 /* Visa hamburgarikonen på skärmar mindre än 575px */
 @media (max-width: 575px) {
+  
   .menu-icon {
     display: block;
   }
@@ -310,7 +311,7 @@ summary {
 
   #main-body {
     width: 93%;
-}
+  }
 
   .article-pic {
     margin: 10px 10px 10px 10px;
@@ -341,7 +342,6 @@ summary {
     justify-content: center;
     display: flex;
   }
-
 
 }
 

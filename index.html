@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="se">
-
-<!-------------------------------Head begin-------------------------------------------------->
-
+<!-----------------------------------Head begin----------------------------------------------->
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css"/>
 	<meta name="Fantastic Good News" content="News">
   <title>Fantastic Good News - This is the page where you only get really good news</title>
-
-
 </head>
-
-<!-------------------------------Body begin--------------------------------------------------> 
-
+<!-------------------------------Body begin---------------------------------------------------> 
 <body>
-<!-------------------------------Header begin-------------------------------------------------->
+<!-------------------------------Header begin------------------------------------------------->
   <header>
     <div class="header">
-<!-------------------------Logga------------------------->
-      <div id="logo-img"><img width="300px" src="logo.jpg" alt="Logotyp Fantastic News"></div> 
+      <div id="logo-img"><img width="300px" src="logo.jpg" alt="Logotyp Fantastic News"></div> <!--Logo picture-->
       <div>
-        <nav>
+        <nav> <!--Nav-menu-->
 					<ul id="nav-menu">
           	<li><a href="#">Start</a></li>
 						<li><a href="#">Sport</a></li>
@@ -38,8 +31,7 @@
           <span></span>
           <span></span>
           <span></span>
-        </label>
-   
+        </label>  
         <nav class="menu">
           <ul>
             <li><a href="#">Start</a></li>
@@ -50,20 +42,18 @@
             <li><a href="#">Väder</a></li>
           </ul>
         </nav>
-<!------------------------------------Search-------------------->
+<!-----------------------Search input-------------------->
         <div id="input"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg><input type="search" placeholder="Sök"></div>
-      </div>
-      
-<!-------------------Local time--------------------> 
-      <div> 
+      </div>     
+<!-------------------Local time widget--------------------> 
+      <div id="right-header"> 
         <div id="local-time"> 
           <a href="https://time.is/Paris" id="time_is_link" rel="nofollow" style="font-size:13px">Klockan är:</a>
           <span id="Paris_z71f" style="font-size:13px"></span>
          	<script src="//widget.time.is/sv.js"></script>
           <script>time_is_widget.init({Paris_z71f:{template:"TIME<br>DATE", date_format:"dayname dnum monthname year"}});</script>
-        </div>
-      
-      <!-------------------Button-------------------->
+        </div>     
+      <!-------------------Buttons header-------------------->
         <div>
           <div id="buttons">
             <button class="prenumerera"><a href="#">Prenumerera</a></button>
@@ -71,89 +61,75 @@
           </div>
         </div>
       </div>
-    </div>
-
-    
+    </div>   
   </header>
-
-	<!-------------------------------Main-------------------------------------------------->
+	<!--------------------------------------Main-------------------------------------------------->
 	<main>
 		<div>
-			<!-------------------Weather-------------------->
+			<!-------------------Weather widget-------------------->
 			<div id="ww_164b880fa8b9a" v='1.3' loc='id' a='{"t":"responsive","lang":"sv","sl_lpl":1,"ids":["wl2619"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"#000000","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"7","cl_odd":"#00000000"}'><a href="https://weatherwidget.org/" id="ww_164b880fa8b9a_u" target="_blank">Weather widget</a></div><script async src="https://app3.weatherwidget.org/js/?id=ww_164b880fa8b9a"></script>
 		</div>
 		<section id="main-container">
-
 			<!-------------------Left sidebar-------------------->
 			<div id="sidebar-left">
 				<div>
 					<h1>Sökhundar hittar växtsjukdomar och ogräs</h1>
         	<p>Hundars enastående förmåga att känna igen olika dofter utnyttjas i ett EIP-Agri-projekt för att snabbt och säkert hitta invasiva ogräs och växtskadegörare. Att specialsökande hundar...<p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
-				</div><hr>
-            
+				</div><hr>         
       	<div>
         	<h1>Västgötska kor driver Karlstads bussar</h1>
         	<p>Gödseln från 1 400 mjölkkor utgör den huvudsakliga råvaran i biogasframställningen. Gasen levereras via AGA till Karlstads lokaltrafik. Vadsbo växtodling och dotterbolaget...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
       	<div>
         	<h1>Ny robot skördar svensk saffran</h1>
         	<p>Det går att odla saffran i Sverige, men arbetet med att skörda krokusblommorna för hand har inte varit kostnadseffektivt. Genom ett innovationsprojekt har en robot tagits fram som nu gör det möjligt...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
       	<div>
         	<h1>Svensk humle i öl bevarar kulturarv</h1> <p>Mikrobryggerier har blivit allt vanligare samtidigt som intresset för svensk öl är stort. Efterfrågan på svensk humle ökar därför dramatiskt. Potentialen för just svenska humlesorter med kända...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
 				<div>
         	<h1>Laxen leker i floden Don för första gången på 200 år</h1> 
 					<p>För första gången på mer än två århundraden har atlantlax (Salmo salar) bekräftats leka i floden Don (River Don) i Sheffield, Storbritannien...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
 				<div>
         	<h1>I det tysta får gräsmarkerna nytt liv – tack vare människor som bryr sig</h1>
         	<p>Massmedia bombarderar oss dagligen med negativa nyheter. Men samtidigt, i det tysta, pågår något annat. Organisationen Birdlife lyfter nu på...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
 				<div>
         	<h1>Rekordmånga flodspärrar rivs – Europas floder får nytt liv</h1>
         	<p>Under 2024 avlägsnades 542 flodspärrar i Europa, allt från utdömda dammar till förfallna slussar och trummor. Det är den högsta siffran någonsin, och ett tydligt...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div><hr>
-
 				<div>
         	<h1>Kenya skriver historia: sömnsjuka eliminerad som folkhälsoproblem</h1>
         	<p>Världshälsoorganisationen, WHO, har bekräftat att Kenya har eliminerat human afrikansk trypanosomiasis (HAT), även kallad sömnsjuka, som ett folkhälsoproblem. Detta gör Kenya till det tionde landet i världen – och det andra...</p>
         	<button class="button-thumb"><a href="#">Läs mer...</a></button>
       	</div>
 			</div>
-
 			<!-------------------Main body-------------------->
 			<div id="main-body">
 				<article>
         	<div class="article-main">
 						<h1 class="title-main">Havs­sköldpaddornas återkomst ger nytt hopp</h1>
         		<p class="text-main">Efter årtionden av arbete ser framtiden för världens havssköldpaddor ljusare ut än på länge. En ny global studie visar att fler än hälften av alla kända populationer nu återhämtar sig. Forskarna bakom rapporten kallar det en av de mest betydelsefulla bevarandeframgångarna i vår tid.
-        	
 						Studien, som omfattar 48 regionala populationer i världshaven, jämförde dagens läge med bedömningar från 2011. I fler än dubbelt så många områden hade hotnivåerna minskat som ökat. Framför allt i Atlanten syns tydliga förbättringar.
-        	
+            <br>  
 						”Hot som jakt och strandexploatering har minskat markant tack vare långsiktiga skyddsåtgärder”, sa Michelle María Early Capistrán, forskare vid Stanford University, i en intervju. ”Vi ser nu resultatet av insatser som inleddes för decennier sedan.”
-        	
+            <br>
 						Särskilt den gröna havssköldpaddan (Chelonia mydas) visar stark återhämtning i flera regioner. Populationer längs Mexikos och USA:s kuster växer – en effekt av skyddade stränder, förbud mot kommersiell fångst och insatser för att minska bifångst i fisket.
 						<details>
-        			<summary>Läs mer</summary>
+        			<summary>Läs mer</summary> <!--Read more-->
         			<p class="text-main">Bakom rapporten står 145 experter från 50 länder, och arbetet beskrivs som det mest omfattande i sitt slag på över ett decennium. Studien publicerades i april 2025 i den vetenskapliga tidskriften Endangered Species Research. Genom att samla kunskap från hela världen har forskarna kunnat få en mer rättvis bild, och visa på vilka åtgärder som verkligen gör skillnad.
-        			
+              <br>
 							Men arbetet är inte färdigt. Fiskebifångst är fortsatt det största hotet mot havssköldpaddor globalt. Framför allt lädersköldpaddan (Dermochelys coriacea) är i farozonen – fyra av dess sju populationer klassas som högriskområden.
-        		
 							Samtidigt visar studien att nya lösningar är på gång. Tekniker som gör fisket säkrare för sköldpaddor utvecklas och testas i flera länder. Och tack vare det växande internationella samarbetet finns idag bättre kunskap än någonsin om arternas behov.
-        		
+              <br>
 							Det viktigaste budskapet? Att naturen svarar – om vi ger den chansen.</p>
     				</details>
 						<hr>
@@ -164,36 +140,24 @@
         	<div class="article-pic"><img width="100%" src="https://static.wixstatic.com/media/dc845e_5adc213468484b4bb404c454efa15fd7~mv2.png/v1/fill/w_925,h_618,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/dc845e_5adc213468484b4bb404c454efa15fd7~mv2.png" alt="Sköldpadda under vattnet"></div>
       	</article>
         <hr>
-
 				<article>
 					<div class="article-main">
 						<h1 class="title-main">80 miljoner fler barn får skolmat – antalet länder med nationella strategier har nästan fördubblats</h1>
 						<p class="text-main">Nästan 80 miljoner fler barn får idag skolmat genom nationella program än år 2020 – en ökning med 20 procent som innebär att minst 466 miljoner barn nås globalt. Det visar FN:s livsmedelsprograms (WFP) nya rapport The State of School Feeding Worldwide.
-
-
 						Framstegen sker där de behövs mest: låginkomstländer har ökat antalet barn som får skolmat med 60 procent på bara två år. Afrika leder utvecklingen – med ytterligare 20 miljoner barn i länder som Kenya, Madagaskar, Etiopien och Rwanda.
-
-
+            <br>
 						"Skolmåltider är så mycket mer än en tallrik näringsrik mat. För utsatta barn är de en väg ut ur fattigdom och in i en ny värld av lärande och möjligheter", sa WFP:s chef Cindy McCain.
-
-
+            <br>
 						Rapporten visar också att investeringarna i skolmat har mer än fördubblats, från 43 miljarder dollar 2020 till 84 miljarder dollar 2024. 99 procent av finansieringen kommer nu från nationella budgetar – ett tecken på att skolmåltider inte längre ses som bistånd, utan som en central del av ländernas egen utvecklingspolitik.
 						<details>
-							<summary>Läs mer</summary>
+							<summary>Läs mer</summary> <!--Read more-->
 							<p class="text-main">Två tredjedelar av de nya barn som nåtts finns i länder som deltar i den internationella School Meals Coalition. Antalet länder med nationella strategier för skolmat har nästan fördubblats sedan 2020 – från 56 till 107.
-
-
 							Utöver bättre skolnärvaro och hälsa visar nya studier att skolmat även stärker barns lärande, särskilt i matematik och läsförståelse – ofta mer kostnadseffektivt än traditionella utbildningsinsatser.
-
-
 							Skolmåltidsprogrammen skapar också arbetstillfällen. Att nå 466 miljoner barn genererar uppskattningsvis 7,4 miljoner jobb globalt, främst för kvinnor som får nya möjligheter i matlagning, logistik och jordbruk.
-
-
+              <br>
 							"Att vi ser denna tillväxt, trots globala kriser, är ett bevis på att regeringar världen över prioriterar sina barns framtid", sa Carmen Burbano, chef för WFP:s skolmatsprogram.
-
-
+              <br>
 							Med fler barn som får näringsrik mat varje dag, med stärkta lokala ekonomier och med skolmåltider som motor för lärande och jämlikhet, växer hoppet om en framtid där fler barn kan växa upp friska, trygga och redo att forma morgondagens samhällen.
-
 							</p>
 						</details>
 						<hr>
@@ -203,32 +167,23 @@
 					</div>
 					<div class="article-pic"><img width="100%" src="https://static.wixstatic.com/media/dc845e_2446007cc8b646bea766317ecaa927e9~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dc845e_2446007cc8b646bea766317ecaa927e9~mv2.jpg" alt="Barn som äter skolmat"></div>
 				</article><hr>
-
 				<article>
 					<div class="article-main">
 						<h1 class="title-main">Kalifornien förbjuder ultraprocessad skolmat – kan bana väg för en nationell förändring</h1>
 						<p class="text-main">Kalifornien tar ännu ett kliv i frontlinjen för barns hälsa. Efter att tidigare ha infört gratis skolmåltider för alla elever och förbjudit syntetiska färgämnen, har delstaten nu röstat igenom en lag som förbjuder ultraprocessad mat i skolorna.
-
-
 						Lagen, som väntar guvernör Gavin Newsoms underskrift, tros innehålla världens första juridiska definition av ultraprocessad mat – livsmedel som ofta är industriframställda, rika på fett, socker, salt och tillsatser, och som i dag utgör omkring 70 procent av USA:s livsmedelsutbud.
-
-
+            <br>
 						"Vi har hittat en formel som fungerar och kan vägleda den nationella debatten: den är bipartisan, bygger på sunt förnuft och vetenskap", sa Jesse Gabriel, lagförslagets initiativtagare.
-
-
+            <br>
 						Det politiska stödet sträcker sig över partigränserna. Flera republikanska ledare, som tidigare kritiserat statlig inblandning, ställde sig bakom lagen – i skarp kontrast till debatten för bara ett decennium sedan när Michelle Obamas hälsosatsningar möttes av hård kritik.
 						<details>
-							<summary>Läs mer</summary>
+							<summary>Läs mer</summary> <!--Read more-->
 							<p class="text-main">Forskning har kopplat ultraprocessad mat till ökad risk för hjärt- och kärlsjukdomar, diabetes, fetma och psykisk ohälsa. Nu hoppas experter att Kaliforniens beslut ska få en California effect – där andra delstater följer efter, precis som tidigare skedde med förbud mot skadliga färgämnen.
-
-
 							Redan i dag har fler än 20 delstater infört liknande lagar som begränsar tillsatser i mat, och lagförslag diskuteras i ytterligare ett 30-tal delstater.
-
-
+              <br>
 							"Att världens fjärde största ekonomi nu väljer bort ultraprocessad skolmat kommer sannolikt få en positiv snöbollseffekt", sa Bernadette del Chiaro från organisationen Environmental Working Group.
-
+              <br>
 							Kaliforniens beslut visar att förändring är möjlig även i en polariserad tid. Att skolor satsar på riktiga råvaror och lagad mat minskar inte bara riskerna för sjukdomar – barn får också en chans att växa upp med mat som stärker både kropp, sinne och planet. 
-
 							</p>
 						</details>
 						<hr>
@@ -238,33 +193,22 @@
 					</div>
 					<div class="article-pic"><img width="100%" src="https://static.wixstatic.com/media/11062b_f339e0fd1e854fa99e444dc81987d197~mv2.jpg/v1/fill/w_740,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f339e0fd1e854fa99e444dc81987d197~mv2.jpg" alt="Barn som leker"></div>
 				</article><hr>
-
         <article>
 					<div class="article-main">
 						<h1 class="title-main">Målet är nått! 1000 kilometer vägkanter förvandlats till blommande ängar 🌼🐝</h1>
 						<p class="text-main">På bara fyra år har Sverige fått 1 000 kilometer vägkanter som ska bli blommande ängar för bin, fjärilar och andra insekter. Det är resultatet av Naturskyddsföreningens projekt Världens längsta blomsteräng, som nu nått sitt mål.
-
-
             Sedan starten 2021 har runt 200 kommuner, markägare och tusentals frivilliga deltagit. Genom att inventera sträckor, så lokala ängsfröer och bekämpa invasiva arter har annars bortglömda vägkanter fått nytt liv.
-
-
+            <br>
             "Det här är en stor framgång som kommer till nytta för våra pollinatörer. Men det är också ett fint exempel på kraften i samverkan. Vi visar att det går att återskapa livsmiljöer för hotade arter – även i vägkanter", säger Karin Lexén, generalsekreterare för Naturskyddsföreningen.
 						<details>
-							<summary>Läs mer</summary>
+							<summary>Läs mer</summary> <!--Read more-->
 							<p class="text-main">Kommunerna har tävlat om vem som kan skapa den längsta blommande sträckan. Vinnare blev Ljungby (67 km), följt av Linköping (46 km) och Malmö (45 km). På cykelleder, längs vägar och i stadsrum spirar nu ängsblommor som binder ihop landskapet och underlättar för pollinatörer att sprida sig.
-
-
               Bakgrunden är allvarlig: ängsmarker är en av Sveriges mest hotade naturtyper. På hundra år har 99 procent försvunnit. Vägkanter kan därför fungera som ”gröna korridorer” och bli avgörande för biologisk mångfald.
-
-
               Även om mycket arbete återstår innan alla sträckor är fullt etablerade växer framtidstron.
-
-
+              <br>
               "Vi hoppas att vårt arbete kan inspirera fler kommuner att omvandla trista och bortglömda vägkanter till paradis för pollinatörer. Nu fortsätter vi skapa Sveriges största nätverk av ängsmarker", säger Karin Lexén.
-
-
+              <br>
               Från Kiruna till Trelleborg är vägkanterna på väg att bli något mer än transportsträckor – de håller på att bli livslinor för naturen och en påminnelse om att hoppet kan blomma även vid vägkanten. 
-
 							</p>
 						</details>
 						<hr>
@@ -276,29 +220,17 @@
 				</article>
 			</div>
 		</section>
-
 	</main>
-
 	<!------------------------------Footer begin------------------------------------------------>
 	<footer>
-		 <div id="logo-footer">
-        
+		 <div id="logo-footer"> <!--Contacts and social media-->     
         <a href="#"><img width="38rem" src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_1280.png" alt="facebook"></a>
-
     		<a href="#"><img width="50rem" src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="instagram"></a>
-
     		<a href="#"><img width="45rem" src="https://cdn.pixabay.com/photo/2016/06/06/16/39/phone-1439840_1280.png" alt="telefon"></a>
-
     		<a href="#"><img width="45rem" src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454732_1280.png" alt="email"></a>
-
 			</div>
 			<div class="copyright"><img width="100rem" src="logo_small.jpg" alt="logo-footer"></div>
 			<div class="copyright"><p>Copyright - all rights reserved 2025</p></div>
-
-
-
-
-
 	</footer>
 </body>
 </html>
